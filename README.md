@@ -9,6 +9,9 @@ My friends wanted a quick place to stream videos and chat together but we didn't
 
 http://wla.fun/stream
 
+# Screenshot
+[Screenshot](https://i.imgur.com/jNyg8xx.jpg)
+
 # Requirements
 
 * NodeJS
