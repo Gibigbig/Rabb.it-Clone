@@ -1,0 +1,84 @@
+
+<head><title>Video Streamer v1 ::Gibran Ali::</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="font-awesome-animation.min.css">
+<style>
+video {
+  width: 100%    !important;
+  height: auto   !important;
+    border: 6px solid #101010;
+    border-radius: 10px;
+background:url(offline.jpeg) no-repeat center center;
+}
+.overflow{overflow:auto}
+.left{float:left} 
+.right{float:right}
+html,body{margin:0px;padding:0px;background:#222;color:#ccc}
+#thing{    border: 1px solid #2d2d2d;
+    padding: 20px;
+    width: 90%;
+    height: 85%;
+    margin-top: 15px;
+    border-radius: 7px;}
+a{    color: #82bf56;
+    text-decoration: none;}
+body{font-family:arial}
+.extra {display: inline-block;
+    line-height: 50px;
+    vertical-align: top;
+    margin-left: 30px;
+    font-size: 55px;
+    background: #111;
+    padding: 10px 30px;
+    height: 47px;
+    border-radius: 7px;color: #333;}
+</style>
+
+</head>
+
+<body>
+
+
+<div class="cont overflow">
+<div class="left" style="width:70%;margin:30px">
+<video controls autoplay width="100%">
+  <source src="YOUR_VIDEO_STREAM_LINK_HERE" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+<div style="margin-top:30px">
+<a href="https://discord.gg/otaku" target="_blank">
+<img src="http://ownageowls.com/Themes/LikeIPBTheme/images/theme/discord.png" height="68" width="332" />
+</a>
+
+
+
+</div>
+<div style="margin-top:30px; font-size:10px;color:#aaa;padding-left:10px">
+Designed and Coded by <i class="fa fa-coffee" aria-hidden="true"></i> &nbsp;<a href="https://gibranali.com" target="_blank">Gibran Ali</a>
+</div>
+</div>
+
+<div class="left" style="width:25%;padding-top:15px">
+<iframe width="99%" height="99%" src="http://wla.fun:2086" id="thing"></iframe>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+
+      <script src="http://wla.fun:2086/socket.io/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script>
+    $( document ).ready(function() {
+
+
+
+      $(function () {
+
+	var socket = io.connect('http://wla.fun:2086');
+
+
+
+      });
+    })
+    </script>
+
+</body>
