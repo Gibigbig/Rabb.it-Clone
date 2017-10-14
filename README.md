@@ -21,12 +21,12 @@ http://wla.fun/stream
 # Setup
 
 * Copy the files to a directory and install the requirements `npm install [package name]` while in the directory.
-* Run `node stream.js` to start app
+
 * Update the files to suit your needs concerning the post and the stream URL etc. Personally, I run the vlc streaming on port `2095` and the chat server on `2086` because these ports are open by default in Cloudflare but it's completely up to you. The default VLC port for streaming is `8080`
 * Change `YOUR_VIDEO_STREAM_LINK_HERE`  in `index.html` to the url of your stream.
 * Update `YOUR_URL:PORT` appropriately `index.html`. Example: `http://yoursite.com:3000`
 * Start VLC player in ubuntu, I like to use a remote desktop so I can access the GUI of ubuntu. I stream a video file under the `HTTP` option. The best quality I've found is if the source is MP4, that is 720p or under and the converted format is WEBM at around 1800Kbits. OGG works too but the video and audio is not synced up as the stream progresses.
-
+* Run `node stream.js` to start app
 
 You can install **PM2** to run as a scalable background process `pm2 start stream.js`, or use **tmux** etc. Your choice.
 
